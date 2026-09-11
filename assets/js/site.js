@@ -120,3 +120,8 @@ $all("[data-ca-full]").forEach((el) => {
   el.textContent = window.BAG.ca || "coming soon";
   el.setAttribute("title", window.BAG.ca || "coming soon");
 });
+
+if (window.BACKPACK_LOGO) {
+  $all('img[src*="coin.jpg"]').forEach((el) => { el.src = window.BACKPACK_LOGO; });
+  $all('link[rel="icon"]').forEach((el) => { el.href = window.BACKPACK_LOGO; });
+}
