@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BAG | Alley</title>
+  <meta property="og:image" content="/assets/img/og.jpg" />
+  <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=Lilita+One&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <div class="scene alley-page">
+    <div class="alley-bg"></div>
+    <div class="overlay-dark"></div>
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="logo" href="/" aria-label="BAG home">
+          <svg class="logo-swing" viewBox="0 0 420 160" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="54" width="404" height="96" rx="24" fill="#FFD43B" stroke="#1B1438" stroke-width="8"/>
+            <rect x="22" y="66" width="376" height="72" rx="16" fill="#19663A"/>
+            <text x="210" y="118" text-anchor="middle" fill="#fff" font-family="Lilita One, Impact, sans-serif" font-size="58">BAG STR</text>
+            <circle cx="210" cy="46" r="40" fill="#FFD43B" stroke="#1B1438" stroke-width="8"/>
+            <circle cx="210" cy="46" r="30" fill="#19663A"/>
+            <text x="210" y="54" text-anchor="middle" fill="#fff" font-family="Lilita One, Impact, sans-serif" font-size="18">HOOD</text>
+          </svg>
+        </a>
+        <nav class="nav-pills">
+          <a href="/">Home</a>
+          <a class="active" href="/alley">Alley</a>
+          <a href="/fire">Fire</a>
+          <a href="/profile">Profile</a>
+        </nav>
+        <div class="top-actions">
+          <a class="icon-btn" href="/guide">?</a>
+          <button class="btn btn-banana" type="button">Fill amount ▾</button>
+          <button class="btn btn-banana" type="button" data-action="connect">Connect</button>
+        </div>
+      </div>
+    </header>
+    <main class="wrap page">
+      <div class="alley-hero">
+        <div>
+          <h1>BAG ALLEY</h1>
+          <p class="lede">Fill your bags with tokens and throw them in a locker. Bigger heap, bigger rewards!</p>
+        </div>
+      </div>
+      <div class="dump-stage">
+        <article class="dump-unit">
+          <img src="/assets/img/bag-legendary.jpg" alt="BAG STR LOCKER" />
+          <div class="plate">BAG STR LOCKER</div>
+          <div class="card dump-stats">
+            <div class="top"><span class="pct">—%</span><span>★ coming soon</span><button class="btn btn-pine" type="button" data-action="connect">ENTER</button></div>
+            <div class="fill"><i></i></div>
+            <div class="mini">
+              <div>CREW<b>—</b></div>
+              <div>RAFFLES WON<b>—</b></div>
+              <div>ETH PAID<b>—</b></div>
+              <div>RAFFLE ODDS<b>—</b></div>
+              <div>RUNNER-UPS<b>—</b></div>
+              <div>$BAG PAID<b>—</b></div>
+            </div>
+          </div>
+        </article>
+        <article class="dump-unit">
+          <img src="/assets/img/bag-gold.jpg" alt="HOOD HEAP" />
+          <div class="plate">HOOD HEAP</div>
+          <div class="card dump-stats">
+            <div class="top"><span class="pct">—%</span><span>★ coming soon</span><button class="btn btn-pine" type="button" data-action="connect">ENTER</button></div>
+            <div class="fill"><i></i></div>
+            <div class="mini">
+              <div>CREW<b>—</b></div>
+              <div>RAFFLES WON<b>—</b></div>
+              <div>ETH PAID<b>—</b></div>
+              <div>RAFFLE ODDS<b>—</b></div>
+              <div>RUNNER-UPS<b>—</b></div>
+              <div>$BAG PAID<b>—</b></div>
+            </div>
+          </div>
+        </article>
+        <article class="dump-unit">
+          <img src="/assets/img/bag.png" alt="RED PACK" />
+          <div class="plate">RED PACK</div>
+          <div class="card dump-stats">
+            <div class="top"><span class="pct">—%</span><span>★ coming soon</span><button class="btn btn-pine" type="button" data-action="connect">ENTER</button></div>
+            <div class="fill"><i></i></div>
+            <div class="mini">
+              <div>CREW<b>—</b></div>
+              <div>RAFFLES WON<b>—</b></div>
+              <div>ETH PAID<b>—</b></div>
+              <div>RAFFLE ODDS<b>—</b></div>
+              <div>RUNNER-UPS<b>—</b></div>
+              <div>$BAG PAID<b>—</b></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </div>
+  <nav class="bottom-nav">
+    <a href="/">HOME</a>
+    <a class="active" href="/alley">ALLEY</a>
+    <a href="/fire">FIRE</a>
+    <button type="button" data-action="connect">CONNECT</button>
+  </nav>
+  <div class="modal" id="connect-modal">
+    <div class="card box">
+      <h3 style="font-family:var(--display);margin:0 0 8px">Connect</h3>
+      <p>CA <code data-ca-full>0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013</code></p>
+      <div class="cta-row" style="margin-top:12px">
+        <a class="btn btn-pine" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">Open Pons</a>
+        <button class="btn" type="button" data-action="close">Close</button>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>
