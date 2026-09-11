@@ -1,16 +1,14 @@
 window.BAG = {
-  name: "BAG",
-  ticker: "$BAG",
-  ca: "0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013",
+  name: "BACKPACK",
+  ticker: "$BACKPACK",
+  ca: "",
   pons: "https://www.ponsfamily.com/launchpad",
-  x: "https://x.com/backpack",
+  x: "",
   chain: "Robinhood Chain",
   chainId: 4663,
-  explorer: "https://robinhoodchain.blockscout.com/token/0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013",
 };
 
-window.BAG.short =
-  window.BAG.ca.slice(0, 6) + "…" + window.BAG.ca.slice(-4);
+window.BAG.short = "CA · coming soon";
 
 function $(sel, root = document) { return root.querySelector(sel); }
 function $all(sel, root = document) { return [...root.querySelectorAll(sel)]; }
@@ -34,7 +32,7 @@ function copyCA() {
     toast("CA coming soon");
     return;
   }
-  navigator.clipboard.writeText(ca).then(() => toast("Copied CA")).catch(() => toast(ca));
+  navigator.clipboard.writeText(ca).then(() => toast("CA coming soon")).catch(() => toast(ca));
 }
 
 function openModal(id) {
@@ -83,7 +81,7 @@ function drawChart(svg) {
 }
 
 function spinReels() {
-  toast("BAG FIRE lights up at launch");
+  toast("BACKPACK FIRE lights up at launch");
 }
 
 document.addEventListener("click", (e) => {
@@ -116,9 +114,9 @@ drawChart($("#bag-chart"));
 
 $all("[data-ca]").forEach((el) => {
   el.textContent = window.BAG.short;
-  el.setAttribute("title", window.BAG.ca);
+  el.setAttribute("title", window.BAG.ca || "coming soon");
 });
 $all("[data-ca-full]").forEach((el) => {
-  el.textContent = window.BAG.ca;
-  el.setAttribute("title", window.BAG.ca);
+  el.textContent = window.BAG.ca || "coming soon";
+  el.setAttribute("title", window.BAG.ca || "coming soon");
 });

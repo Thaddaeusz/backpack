@@ -1,5 +1,5 @@
-# backpack
+# BACKPACK
 
-BACKPACK on Robinhood Chain. Site for https://backpack.xyz (Vercel: backpack.vercel.app).
+BACKPACK on Robinhood Chain. Launching on [Pons](https://www.ponsfamily.com/launchpad).
 
-Formerly bagpons.xyz / bag-rhc.
+CA coming soon. Live at https://backpack-one-lyart.vercel.app
