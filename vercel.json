@@ -5,6 +5,10 @@
     {
       "source": "/assets/img/:path*",
       "destination": "https://bag-3bb9p64ij-lucyy25012004phan-8685s-projects.vercel.app/assets/img/:path*"
+    },
+    {
+      "source": "/assets/css/:path*",
+      "destination": "https://bag-3bb9p64ij-lucyy25012004phan-8685s-projects.vercel.app/assets/css/:path*"
     }
   ]
 }
