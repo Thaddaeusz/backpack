@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BAG | Home</title>
+  <meta name="description" content="BAG is the on-chain bag engine for Robinhood Chain. Launching on Pons." />
+  <meta property="og:title" content="BAG — Grab a bag on Robinhood Chain" />
+  <meta property="og:description" content="The bag engine for Robinhood Chain. Live on Pons. CA 0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013" />
+  <meta property="og:image" content="/assets/img/og.jpg" />
+  <meta property="og:url" content="https://www.backpack.xyz/" />
+  <link rel="canonical" href="https://www.backpack.xyz/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="/assets/img/og.jpg" />
+  <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=Lilita+One&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <div class="scene">
+    <div class="sky"></div>
+    <div class="sunset"></div>
+    <div class="sun"></div>
+    <div class="cloud" style="left:8%;top:22%"></div>
+    <div class="cloud" style="left:62%;top:18%;transform:scale(.8)"></div>
+    <div class="cloud" style="left:78%;top:58%;transform:scale(1.1)"></div>
+    <div class="cloud" style="left:18%;top:68%;transform:scale(.7)"></div>
+    <div class="street"></div>
+
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="logo" href="/" aria-label="BAG home">
+          <svg class="logo-swing" viewBox="0 0 420 160" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="54" width="404" height="96" rx="24" fill="#FFD43B" stroke="#1B1438" stroke-width="8"/>
+            <rect x="22" y="66" width="376" height="72" rx="16" fill="#19663A"/>
+            <text x="210" y="118" text-anchor="middle" fill="#fff" font-family="Lilita One, Impact, sans-serif" font-size="58">BAG STR</text>
+            <circle cx="210" cy="46" r="40" fill="#FFD43B" stroke="#1B1438" stroke-width="8"/>
+            <circle cx="210" cy="46" r="30" fill="#19663A"/>
+            <text x="210" y="54" text-anchor="middle" fill="#fff" font-family="Lilita One, Impact, sans-serif" font-size="18">HOOD</text>
+          </svg>
+        </a>
+        <nav class="nav-pills">
+          <a class="active" href="/">Home</a>
+          <a href="/alley">Alley</a>
+          <a href="/fire">Fire</a>
+          <a href="/profile">Profile</a>
+        </nav>
+        <div class="top-actions">
+          <a class="icon-btn" href="/guide" title="Guide">?</a>
+          <a class="icon-btn" href="https://x.com/backpack" target="_blank" rel="noopener" title="X">𝕏</a>
+          <button class="btn btn-banana" type="button" data-action="connect">Connect</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap dash">
+      <div class="row-hero">
+        <section class="card ticker">
+          <div class="ticker-head">
+            <div class="pair">
+              <img src="/assets/img/bag.png" alt="$BAG" />
+              <div>
+                <span class="sym">$BAG</span>
+                <div class="px">$0.0000</div>
+                <div class="mcap">MCAP $000K</div>
+              </div>
+            </div>
+            <div>
+              <div class="tf">
+                <button type="button">USD</button>
+                <button type="button" data-tf>1M</button>
+                <button type="button" data-tf>5M</button>
+                <button type="button" data-tf>15M</button>
+                <button type="button" data-tf class="on">1H</button>
+                <button type="button" data-tf>4H</button>
+                <button type="button" data-tf>1D</button>
+              </div>
+              <div style="text-align:right;margin-top:8px">
+                <button class="ca-chip" type="button" data-action="copy-ca" data-ca title="0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013">0x4712…A013</button>
+              </div>
+            </div>
+          </div>
+          <div class="chart">
+            <div class="cloud" style="top:12px;right:16%;left:auto;transform:scale(.7)"></div>
+            <svg id="bag-chart" viewBox="0 0 640 280" preserveAspectRatio="none"></svg>
+          </div>
+        </section>
+
+        <div class="right">
+          <h1>BAG DASHBOARD</h1>
+          <div class="cta-row">
+            <a class="btn btn-lg" href="/guide">GET STARTED</a>
+            <a class="btn btn-banana btn-lg" href="/guide#bags">GRAB A BAG</a>
+          </div>
+          <div class="stats">
+            <div class="card stat"><div class="lbl">Holders</div><div class="val">—</div></div>
+            <div class="card stat"><div class="lbl">raffles</div><div class="val">—</div></div>
+            <div class="card stat"><div class="lbl">distributed</div><div class="val">—</div></div>
+            <div class="card stat"><div class="lbl">distributed</div><div class="val">—</div></div>
+          </div>
+          <section class="card swap">
+            <span class="tab w">SWAP</span>
+            <span class="tax">10%</span>
+            <div class="swap-btns">
+              <a class="btn btn-pine" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">▲ PUMP</a>
+              <a class="btn btn-cherry" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">▼ DUMP</a>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="row-mid">
+        <section class="card fire">
+          <span class="tab">BAG FIRE</span>
+          <div class="hand" style="font-size:14px;margin-bottom:6px">PROGRESSIVE JACKPOT [$BAG]</div>
+          <div class="jackpot">
+            <span class="flip">0</span><span class="flip">,</span><span class="flip">0</span><span class="flip">0</span><span class="flip">0</span><span class="flip">,</span><span class="flip">0</span><span class="flip">0</span><span class="flip">0</span>
+          </div>
+          <div class="fire-grid">
+            <div><div class="meta-k">Last hit</div><div class="meta-box">—</div></div>
+            <div><div class="meta-k">Total spins</div><div class="meta-box">—</div></div>
+            <div><div class="meta-k">Bets [$BAG]</div><div class="meta-box">—</div></div>
+            <a class="btn btn-banana btn-lg" href="/fire">PLAY</a>
+          </div>
+          <div class="heat">
+            <span style="font-size:18px">🔥</span>
+            <div class="heat-bar"><i></i></div>
+          </div>
+          <div class="hand" style="margin-top:6px;font-size:15px">BAGMEN: 0 | BETS: 0 $BAG</div>
+        </section>
+
+        <section class="card target">
+          <span class="tab w">BAG</span>
+          <img src="/assets/img/bag.png" alt="BAG target" />
+        </section>
+
+        <section class="card engine">
+          <span class="tab">BAG ENGINE</span>
+          <div class="engine-top">
+            <div>
+              <div class="meta-k">Gear [–]</div>
+              <div class="gears">
+                <i class="gear"></i><i class="gear"></i><i class="gear"></i>
+                <i class="gear"></i><i class="gear"></i><i class="gear on"></i>
+              </div>
+            </div>
+            <div><div class="meta-k">Batch</div><div class="meta-box">N/A</div></div>
+            <div><div class="meta-k">Cycle</div><div class="meta-box">N/A</div></div>
+            <div><div class="meta-k">Status</div><div class="meta-box">SOON</div></div>
+          </div>
+          <div class="engine-fuel">
+            <div class="fuel-box">
+              <div class="n">0.00</div>
+              <div class="s">FUEL RESERVE [ETH]</div>
+            </div>
+            <div class="driver">👛</div>
+            <div class="fuel-box">
+              <div class="n">--:--</div>
+              <div class="s">COOLDOWN [OFF]</div>
+            </div>
+          </div>
+          <div class="hazard"></div>
+        </section>
+      </div>
+
+      <div class="row-raff">
+        <div>
+          <section class="card season">
+            <span class="tab w">SEASON</span>
+            <div class="clock">
+              <span class="flip">-</span><span class="flip">-</span>
+              <span class="flip sep">:</span>
+              <span class="flip">-</span><span class="flip">-</span>
+              <span class="flip sep">:</span>
+              <span class="flip">-</span><span class="flip">-</span>
+            </div>
+          </section>
+          <section class="card next" style="margin-top:14px">
+            <span class="tab w">NEXT UP</span>
+            <div class="next-slot"></div>
+          </section>
+        </div>
+        <section class="card raffles">
+          <span class="tab">RECENT RAFFLES</span>
+          <div class="raffle-row">
+            <div class="r-main">BAG STR LOCKER <span class="r-pct">SOON</span></div>
+            <div class="r-sub">+ — ETH</div>
+            <div class="r-sub">+ — $BAG</div>
+          </div>
+          <div class="raffle-row">
+            <div class="r-main">HOOD HEAP <span class="r-pct">SOON</span></div>
+            <div class="r-sub">+ — ETH</div>
+            <div class="r-sub">+ — $BAG</div>
+          </div>
+          <div class="raffle-row">
+            <div class="r-main">RED PACK <span class="r-pct">SOON</span></div>
+            <div class="r-sub">+ — ETH</div>
+            <div class="r-sub">+ — $BAG</div>
+          </div>
+          <div class="raff-actions">
+            <a class="btn" href="/alley">LEADERBOARD</a>
+            <button class="btn" type="button" data-action="copy-ca">RAFFLE HISTORY</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="row-vol">
+        <div>
+          <div class="card stat vol" style="margin-bottom:10px"><div class="lbl">Total volume</div><div class="val">—</div></div>
+          <div class="card stat vol"><div class="lbl">24h volume</div><div class="val">—</div></div>
+        </div>
+        <section class="card supply">
+          <span class="tab w">SUPPLY</span>
+          <div class="bar"><i></i><i></i><i></i></div>
+          <div class="legend">
+            <div><span class="dot" style="background:var(--pine)"></span>Staked in bags —</div>
+            <div><span class="dot" style="background:var(--banana)"></span>Jackpot reserve —</div>
+            <div><span class="dot" style="background:#fff"></span>Circulating —</div>
+          </div>
+        </section>
+      </div>
+
+      <section class="card dumps">
+        <span class="tab">LOCKERS</span>
+        <div class="dump-row">
+          <span class="num-badge">1</span>
+          <div class="name">BAG STR LOCKER</div>
+          <div>★ coming soon</div>
+          <div>CREW —</div>
+          <div>STAKED —</div>
+          <div>RAFFLE ODDS —</div>
+          <div>▸</div>
+        </div>
+        <div class="dump-row">
+          <span class="num-badge">2</span>
+          <div class="name">HOOD HEAP</div>
+          <div>★ coming soon</div>
+          <div>CREW —</div>
+          <div>STAKED —</div>
+          <div>RAFFLE ODDS —</div>
+          <div>▸</div>
+        </div>
+        <div class="dump-row">
+          <span class="num-badge">3</span>
+          <div class="name">RED PACK</div>
+          <div>★ coming soon</div>
+          <div>CREW —</div>
+          <div>STAKED —</div>
+          <div>RAFFLE ODDS —</div>
+          <div>▸</div>
+        </div>
+        <div style="text-align:center;margin-top:8px"><a class="btn" href="/alley">SHOW ALL</a></div>
+      </section>
+
+      <section class="enter">
+        <h2>ENTER BAG STR</h2>
+        <p>Time to hit the street!</p>
+        <div class="cta-row" style="justify-content:center">
+          <a class="btn btn-pine btn-lg" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">Buy $BAG</a>
+          <a class="btn btn-banana btn-lg" href="/guide#bags">Grab a bag</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <nav class="bottom-nav">
+    <a class="active" href="/">HOME</a>
+    <a href="/alley">ALLEY</a>
+    <a href="/fire">FIRE</a>
+    <button type="button" data-action="connect">CONNECT</button>
+  </nav>
+  <div class="modal" id="connect-modal">
+    <div class="card box">
+      <h3 class="display" style="font-family:var(--display);margin:0 0 8px">Connect</h3>
+      <p>CA <code data-ca-full>0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013</code></p>
+      <div class="cta-row" style="margin-top:12px">
+        <a class="btn btn-pine" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">Open Pons</a>
+        <button class="btn" type="button" data-action="close">Close</button>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>
