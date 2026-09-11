@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BAG | Guide</title>
+  <meta name="description" content="How BAG works on Robinhood Chain. Fill a bag, stake it, feed the fire. Launching on Pons." />
+  <meta property="og:image" content="/assets/img/og.jpg" />
+  <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=Lilita+One&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <div class="scene brick">
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="logo" href="/" aria-label="BAG home">
+          <svg class="logo-swing" viewBox="0 0 420 160" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="54" width="404" height="96" rx="24" fill="#FFD43B" stroke="#1B1438" stroke-width="8"/>
+            <rect x="22" y="66" width="376" height="72" rx="16" fill="#19663A"/>
+            <text x="210" y="118" text-anchor="middle" fill="#fff" font-family="Lilita One, Impact, sans-serif" font-size="58">BAG STR</text>
+            <circle cx="210" cy="46" r="40" fill="#FFD43B" stroke="#1B1438" stroke-width="8"/>
+            <circle cx="210" cy="46" r="30" fill="#19663A"/>
+            <text x="210" y="54" text-anchor="middle" fill="#fff" font-family="Lilita One, Impact, sans-serif" font-size="18">HOOD</text>
+          </svg>
+        </a>
+        <nav class="nav-pills">
+          <a href="/">Home</a>
+          <a href="/alley">Alley</a>
+          <a href="/fire">Fire</a>
+          <a href="/profile">Profile</a>
+        </nav>
+        <div class="top-actions">
+          <a class="icon-btn" href="/guide">?</a>
+          <a class="icon-btn" href="https://x.com/backpack" target="_blank" rel="noopener">𝕏</a>
+          <button class="btn btn-banana" type="button" data-action="connect">Connect</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap page">
+      <div class="hero-copy">
+        <h1>WELCOME TO BAG STR</h1>
+        <p class="lede">BAG is the on-chain strategy engine for Robinhood Chain.<br>Powered by $BAG.</p>
+        <div class="chips">
+          <a class="chip" href="#flywheel">HOW IT WORKS</a>
+          <a class="chip" href="#start">GET STARTED</a>
+          <a class="chip" href="#lingo">THE LINGO</a>
+          <a class="chip" href="#bags">RUBBISH BAGS</a>
+          <a class="chip" href="#faq">FAQ</a>
+        </div>
+      </div>
+
+      <div class="guide-stats">
+        <div class="card stat"><div class="val">—</div><div class="lbl">raffles fired</div></div>
+        <div class="card stat"><div class="val">— $BAG</div><div class="lbl">jackpot reserve</div></div>
+        <div class="card stat"><div class="val">— ETH</div><div class="lbl">paid to winners</div></div>
+        <div class="card stat"><div class="val">— $BAG</div><div class="lbl">paid to runner-ups</div></div>
+      </div>
+
+      <section class="section">
+        <p class="kicker">PICK A LANE</p>
+        <h2>YOUR ROLE ON THE STREET</h2>
+        <p class="lede">There's more than one way to hustle.</p>
+        <div class="roles" style="margin-top:16px">
+          <article class="card role">
+            <img src="/assets/img/diver.jpg" alt="BAG DIVER" />
+            <h3>BAG DIVER</h3>
+            <p>Fill a bag with $BAG and stake it in a locker. Take a cut of everything the crew wins. The bigger your heap, the bigger your rewards.</p>
+          </article>
+          <article class="card role">
+            <img src="/assets/img/captain.jpg" alt="BAG CAPTAIN" />
+            <h3>BAG CAPTAIN</h3>
+            <p>Hold a Legendary Bag to run one of the 22 lockers on the street. Skim a 7.5% commission off everything the crew hauls in.</p>
+          </article>
+          <article class="card role">
+            <img src="/assets/img/arsonist.jpg" alt="BAG ARSONIST" />
+            <h3>BAG ARSONIST</h3>
+            <p>Feed BAG FIRE with every stack of $BAG you throw into the slot for a chance to run off with the ever-climbing jackpot.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="flywheel">
+        <p class="kicker">THE ENGINE</p>
+        <h2>THE TAX DRIVES OUR ENGINE</h2>
+        <p class="lede">The $BAG tax provides the fuel for our protocol engine to flip tokens and rain the profits back onto the street.</p>
+        <div class="fly" style="margin-top:16px">
+          <div class="card"><h3 class="display" style="font-family:var(--display);margin:0 0 6px">$BAG IS TRADED</h3><p>Every time $BAG is bought, sold or transferred after launch, tax is routed into the system. Buy and sell on Pons / Robinhood Chain.</p><div class="chips" style="justify-content:flex-start"><span class="chip">7.5% FUEL</span><span class="chip">1.5% DEV</span><span class="chip">1% BUYBACKS</span></div></div>
+          <div class="card"><h3 class="display" style="font-family:var(--display);margin:0 0 6px">TAX FUELS THE ENGINE</h3><p>The engine accumulates ETH as fuel. Once the tank is loaded, it runs a raffle across the lockers. The winning locker receives proceeds at its current discount level.</p></div>
+          <div class="card"><h3 class="display" style="font-family:var(--display);margin:0 0 6px">RAFFLES ARE FIRED</h3><p>On-chain randomness picks a winner and two runner-ups, weighted by staked $BAG. Remainder splits into engine refuel, runner-ups and BAG FIRE.</p></div>
+          <div class="card"><h3 class="display" style="font-family:var(--display);margin:0 0 6px">SPLITTING THE HAUL</h3><p>The captain skims a 7.5% commission, the rest is distributed among the crew by stake.</p></div>
+          <div class="card"><h3 class="display" style="font-family:var(--display);margin:0 0 6px">NEW SEASON, NEW TARGET</h3><p>Every 48 hours the street rotates to a fresh target and the engine keeps chugging.</p></div>
+        </div>
+      </section>
+
+      <section class="section" id="lingo">
+        <p class="kicker">TRASH TALK</p>
+        <h2>LEARN THE LINGO</h2>
+        <p class="lede">Ten words and you're fluent.</p>
+        <div class="lingo" style="margin-top:16px">
+          <div class="card"><h3>$BAG</h3><p>The BAG token. One billion supply. Ticker is the red backpack with the chrome R. CA <span data-ca-full>0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013</span></p></div>
+          <div class="card"><h3>BAG</h3><p>A Bag NFT. Fill it with $BAG, then stake it in a locker. Total supply is 2222.</p></div>
+          <div class="card"><h3>LOCKER</h3><p>A staking pool, opened by a Legendary Bag holder. Only 22 can ever exist.</p></div>
+          <div class="card"><h3>CAPTAIN</h3><p>Owns the locker. Skims a 7.5% commission off everything the crew wins.</p></div>
+          <div class="card"><h3>CREW</h3><p>Everyone staked in a locker. Splits payouts weighted by stake.</p></div>
+          <div class="card"><h3>HEAP</h3><p>A locker's total staked $BAG. Bigger heap: bigger raffle odds and pay.</p></div>
+          <div class="card"><h3>ENGINE</h3><p>Fuelled by tax to flip the target and dump the proceeds on raffle winners.</p></div>
+          <div class="card"><h3>FUEL</h3><p>The engine is fuelled by ETH collected via the tax on $BAG.</p></div>
+          <div class="card"><h3>SEASON</h3><p>Every 48 hours the street rotates to a new target token.</p></div>
+          <div class="card"><h3>FIRE</h3><p>BAG Fire, the progressive jackpot slot. Any $BAG holder can spin. No NFT required.</p></div>
+        </div>
+      </section>
+
+      <section class="section" id="bags">
+        <p class="kicker">BAG UP</p>
+        <h2>THE BAGS</h2>
+        <p class="lede">A higher tier carries more $BAG and pulls a bigger cut. A Legendary Bag can be opened as a staking pool.</p>
+        <div class="bags" style="margin-top:16px">
+          <article class="card bag-card"><img src="/assets/img/bag-legendary.jpg" alt="Legendary" /><h3>LEGENDARY BAG</h3><p>Items 22 · Capacity 10M<br>Create + Stake</p></article>
+          <article class="card bag-card"><img src="/assets/img/bag-diamond.jpg" alt="Diamond" /><h3>DIAMOND BAG</h3><p>Items 100 · Capacity 2.5M<br>Stake</p></article>
+          <article class="card bag-card"><img src="/assets/img/bag-gold.jpg" alt="Gold" /><h3>GOLD BAG</h3><p>Items 400 · Capacity 500K<br>Stake</p></article>
+          <article class="card bag-card"><img src="/assets/img/bag-silver.jpg" alt="Silver" /><h3>SILVER BAG</h3><p>Items 1,700 · Capacity 100K<br>Stake</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="start">
+        <p class="kicker">GET IN</p>
+        <h2>FIRST DAY ON BAG STR</h2>
+        <div class="steps" style="margin-top:16px">
+          <div class="card step"><div class="num">1</div><div><h3>Wake up</h3><p>Connect a wallet on Robinhood Chain.</p></div></div>
+          <div class="card step"><div class="num">2</div><div><h3>Take a $BAG</h3><p>Buy $BAG on Pons.</p><a class="btn btn-pine" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">Buy $BAG</a></div></div>
+          <div class="card step"><div class="num">3</div><div><h3>Grab a bag</h3><p>All 2,222 bags mint after launch.</p></div></div>
+          <div class="card step"><div class="num">4</div><div><h3>Fill and toss it</h3><p>Load your bag, then visit the Alley.</p><a class="btn" href="/alley">BAG ALLEY</a></div></div>
+          <div class="card step"><div class="num">5</div><div><h3>Cash the haul</h3><p>Claim rewards on your profile.</p><a class="btn" href="/profile">Visit profile</a></div></div>
+          <div class="card step"><div class="num">6</div><div><h3>Feed the Fire</h3><p>Open to any $BAG holder.</p><a class="btn btn-cherry" href="/fire">BAG FIRE</a></div></div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <p class="kicker">STILL CONFUSED?</p>
+        <h2>QUESTIONS FROM THE GUTTER</h2>
+        <details><summary>Do I need an NFT to play?</summary><p>Only for lockers. BAG Fire takes any $BAG holder.</p></details>
+        <details><summary>Where do I buy?</summary><p>On Pons, Robinhood Chain. CA <span data-ca-full>0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013</span></p></details>
+        <details><summary>Can I lose the $BAG I stake?</summary><p>Your stake is never wagered. Principal stays in the bag until you unstake.</p></details>
+        <details><summary>How are winners picked?</summary><p>Verifiable on-chain randomness, weighted by heap size.</p></details>
+        <details><summary>Can I run my own locker?</summary><p>If you hold one of the 22 Legendary bags. Captain takes 7.5%.</p></details>
+      </section>
+
+      <section class="enter">
+        <h2>ENTER BAG STR</h2>
+        <p>Time to hit the street!</p>
+        <div class="cta-row" style="justify-content:center">
+          <a class="btn btn-pine btn-lg" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">Buy $BAG</a>
+          <a class="btn btn-banana btn-lg" href="#bags">Grab a bag</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <nav class="bottom-nav">
+    <a href="/">HOME</a>
+    <a href="/alley">ALLEY</a>
+    <a href="/fire">FIRE</a>
+    <button type="button" data-action="connect">CONNECT</button>
+  </nav>
+  <div class="modal" id="connect-modal">
+    <div class="card box">
+      <h3 style="font-family:var(--display);margin:0 0 8px">Connect</h3>
+      <p>CA <code data-ca-full>0x4712fB3AAbC292095dffE8e99c25c4A73FeAA013</code></p>
+      <div class="cta-row" style="margin-top:12px">
+        <a class="btn btn-pine" href="https://www.ponsfamily.com/launchpad" target="_blank" rel="noopener">Open Pons</a>
+        <button class="btn" type="button" data-action="close">Close</button>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>
